@@ -1,0 +1,131 @@
+/* Mobile */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: darkmagenta;
+    margin: 0;
+    padding: 0;
+    font-family: 'Sansita Swashed', cursive;
+    color: black;
+    text-align: center;
+}
+
+header {
+    background-image: url(../Imagens/fundo.png) ;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    top: 0;
+    padding-bottom: 20px;
+}
+
+select{
+    margin-top: 10px;
+    font-family: inherit;
+}
+
+footer {
+    background-color: #504b43;
+    padding: 25px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.texto {
+    background-color: #e7a4d1;   
+    padding: 20px 25px;
+    font-size: 1.2rem;
+}
+ul {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color:#872331;
+    
+}
+
+div p{
+    padding: 10px;
+    text-align: justify;
+}
+h1{
+    margin: 0;
+    padding: 10px;
+}
+
+div audio{
+    align-content: center;
+}
+
+.fundo_anima{
+    width: 90%;
+    height: 200px;
+    border-radius: 5%;
+}
+
+#capa_album {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    margin-bottom: 20px;   
+}
+
+.fundo_personagem{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+#anima {
+    padding: 10px;
+}
+
+hr {
+  border: 2px solid #F5A65B;
+  border-radius: 5px;
+}
+
+
+#logo_topo{
+    width: 200px;
+    height: 200px;
+    align-content: center;
+}
+
+#anima_desc{
+    margin-top: 20px;
+}
+/*Desktop----------------------------------------------------------------------------*/
+@media(min-width:768px){
+header {
+    width: 100%;
+}
+
+
+li{
+    float: left;
+    width: 20%; 
+    }
+    
+li:hover{
+    background-color: beige;  
+    transform: rotate(-4deg);
+    border-radius: 15%;
+    }
+.fundo_anima{
+    width: 400px;
+    height: 250px;
+}
+}
